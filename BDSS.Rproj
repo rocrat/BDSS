@@ -1,0 +1,19 @@
+Version: 1.0
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+BuildType: Package
+PackageUseDevtools: Yes
+PackageInstallArgs: -l  "C:/Program Files/R/R-3.1.1" --no-multiarch --with-keep.source --no-test-load
+PackageBuildBinaryArgs: --no-test-load
+PackageRoxygenize: rd,collate,namespace
